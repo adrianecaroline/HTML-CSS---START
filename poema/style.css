@@ -1,4 +1,5 @@
 body {
+  overflow-x: hidden;
   margin: 0%;
   font-family: arial;
   color: #ffff;
@@ -16,19 +17,24 @@ pre {
   font-weight: bolder;
 }
 
-#container {
-  position: relative;
-  display: inline-block;
+.poesia {
+  display: grid;
+  background-image: url(vinicius.jpg);
+  width: 80%;
+  height: 90vh;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  margin: 2% auto;
+  place-content: flex-start;
 }
 
-img,
-section {
-  position: absolute;
-  left: 100px;
-  top: 40px;
-  border-radius: 20px;
+.poesia > div > h2 {
+  text-align: center;
 }
 
-h2 {
-  padding-left: 20px;
+div {
+  background-color: #151616c9;
+  border-radius: 8px;
+  width: 35vw;
+  margin: 10px;
 }
