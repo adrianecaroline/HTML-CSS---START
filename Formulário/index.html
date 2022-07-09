@@ -24,7 +24,7 @@
           <input
             type="text"
             name="name"
-            id="name"
+            id="user"
             placeholder="Digite seu nome"
             required
           />
@@ -32,55 +32,66 @@
           <input
             type="tel"
             name="phone"
-            id="phone"
+            id="user"
             placeholder="(xx) xxxxx-xxxx"
             required
           />
           <label for="address">Endereço</label>
           <input
-            type="address"
+            type="text"
             name="address"
-            id="address"
+            id="user"
             placeholder="Digite seu Endereço"
             required
           />
         </fieldset>
-
-        <fieldset class="gender">
-          <legend>Gênero</legend>
-          <div class="radio">
-            <input type="radio" id="female" name="gender" value="female" />
-            <label for="female">Feminino</label>
-            <input type="radio" id="male" name="gender" value="male" />
-            <label for="male">Masculino</label>
-            <input type="radio" id="nobinary" name="gender" value="nobinary" />
-            <label for="nobinary">Não-binário</label>
-            <input
-              type="radio"
-              id="bigendered"
-              name="gender"
-              value="bigendered"
-            />
-            <label for="bigendered">Bi-Gênero</label>
+        <div class="frame">
+          <fieldset class="gender">
+            <legend>Gênero</legend>
+            <div class="radio">
+              <input type="radio" id="female" name="gender" value="female" />
+              <label for="female">Feminino</label>
+              <input type="radio" id="male" name="gender" value="male" />
+              <label for="male">Masculino</label>
+              <input type="radio" id="nobinary" name="gender" value="nobinary" />
+              <label for="nobinary">Não-binário</label>
+              <input
+                type="radio"
+                id="bigendered"
+                name="gender"
+                value="bigendered"
+              />
+              <label for="bigendered">Bi-Gênero</label>
+            </div>
+          </fieldset>
+          <div class="text">
+            <div class="imag">
+              <img
+                src="https://marketplace.canva.com/2K7bI/MAEIt82K7bI/1/tl/canva-smiling-young-woman-MAEIt82K7bI.png"
+                alt=""
+                srcset=""
+              />
+            </div>
+            <span
+              ><p>
+                Olá, me chamo Adriane, sou aluna do projeto START 2022 da Rede
+                Cidadã, um projeto que tem como parceria a Accenture. Esta página é
+                uma atividade do projeto de front-end.
+              </p></span
+            >
           </div>
-        </fieldset>
+        </div>
+        <form>
+          <div class="btn">
+            <input type="submit" value="Salvar" id="user" />
+            <input type="reset" value="Cancelar" id="user" />
+          </div>
+        </form>
       </form>
     </section>
 
-    <div class="frame">
-      <div class="text">
-        <div class="imag">
-          <img src="https://marketplace.canva.com/2K7bI/MAEIt82K7bI/1/tl/canva-smiling-young-woman-MAEIt82K7bI.png" alt="" srcset="" />
-        </div>
-        <span><p>Olá, me chamo Adriane, sou aluna do projeto START 2022 da Rede Cidadã, um projeto que tem como parceria a Accenture.
-        Está página é uma atividade do projeto de front-end.  </p></span>
-      </div>
-      <div class="btn">
-        <input type="submit" value="Salvar" />
-        <input type="reset" value="Cancelar" />
-      </div>
-    </div>
+    
 
-    <footer>Desenvolvido por  © Adriane Caroline</footer>
+    <footer>Desenvolvido por © Adriane Caroline</footer>
   </body>
 </html>
